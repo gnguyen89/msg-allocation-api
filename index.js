@@ -10,8 +10,10 @@ const port = process.env.PORT || 8080;
 
 const router = express.Router();
 
-router.get('/', (req, res) => res.send('Hello World!'));
+router.get('/', (req, res) => { 
+  res.json({ message: 'hooray! welcome to our api!' });
+});
 
-// app.listen(3000, () => console.log('msg-api listening on port 3000!'));
+app.listen(8080, () => console.log('msg-api listening on port 8080!'));
 
 app.use('/api', router);
