@@ -1,5 +1,5 @@
 {
-  "name": "msg-api",
+  "name": "msg-allocation-api",
   "version": "1.0.0",
   "description": "The api for msg-allocation",
   "main": "index.js",
