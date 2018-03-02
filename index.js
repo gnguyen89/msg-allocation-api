@@ -14,6 +14,6 @@ router.get('/', (req, res) => {
   res.json({ message: 'hooray! welcome to our api!' });
 });
 
-app.listen(8080, () => console.log('msg-api listening on port 8080!'));
+app.listen(port);
 
 app.use('/api', router);
